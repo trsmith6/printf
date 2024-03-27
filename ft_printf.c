@@ -6,7 +6,7 @@
 /*   By: trsmith <trsmith@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/19 15:08:14 by trsmith           #+#    #+#             */
-/*   Updated: 2024/03/27 11:58:36 by trsmith          ###   ########.fr       */
+/*   Updated: 2024/03/27 14:56:08 by trsmith          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,23 +81,23 @@ int	ft_printf(const char *format, ...)
 	return (count);
 }
 
-	int main()
-	{
-		char *str = "This project was hard!";
-		int number = 12345;
-		unsigned int hex_number = 0xABCD;
-		void *ptr = (void *)0x12345678;
+	// int main()
+	// {
+	// 	char *str = "This project was hard!";
+	// 	int number = 12345;
+	// 	unsigned int hex_number = 0xABCD;
+	// 	void *ptr = (void *)0x12345678;
 
-	    // Testing all print specifiers
-		ft_printf("Testing print specifiers:\n");
-		ft_printf("%%c: %c\n", 'A');
-		ft_printf("%%s: %s\n", str);
-		ft_printf("%%d: %d\n", number);
-		ft_printf("%%i: %i\n", number);
-		ft_printf("%%x: %x\n", hex_number);
-		ft_printf("%%X: %X\n", hex_number);
-		ft_printf("%%u: %u\n", hex_number);
-		ft_printf("%%p: %p\n", ptr);
+	//     // Testing all print specifiers
+	// 	ft_printf("Testing print specifiers:\n");
+	// 	ft_printf("%%c: %c\n", 'A');
+	// 	ft_printf("%%s: %s\n", str);
+	// 	ft_printf("%%d: %d\n", number);
+	// 	ft_printf("%%i: %i\n", number);
+	// 	ft_printf("%%x: %x\n", hex_number);
+	// 	ft_printf("%%X: %X\n", hex_number);
+	// 	ft_printf("%%u: %u\n", hex_number);
+	// 	ft_printf("%%p: %p\n", ptr);
 
-		return (0);
-	}
+	// 	return (0);
+	// }
